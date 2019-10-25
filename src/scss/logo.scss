@@ -1,0 +1,13 @@
+.logo {
+    background-color: #f5645a;
+    background-image: url(./imgs/logo-background.png);
+    background-position: bottom;
+    
+    .logo-background {
+        padding-top: 63px;
+        height: 262px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

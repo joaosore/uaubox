@@ -1,365 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" href="./imgs/favicon.png" sizes="204x204" />
-    <title>Reiterar</title>
-  </head>
-  <link rel="stylesheet" type="text/css" href="./main.css"></html>
-  <body>
 
-    <header>
-      <nav class="container navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#inicio">
-          <object id="logo-svg" class="logo" type="image/svg+xml" data="./imgs/logo.svg" alt="Reiterar"></object>
-        </a>
-        
-        <div class="menu-mobile">
-          <div class="bar top"></div>
-          <div class="bar right"></div>
-          <div class="bar left"></div>
-          <div class="bar bottom"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Uaubox</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./main.css">
+
+</html>
+
+<body>
+
+  <header>
+    <nav class="container-fluid navbar navbar-expand-md">
+
+      <div class="menu-mobile">
+        <div class="bar top"></div>
+        <div class="bar right"></div>
+        <div class="bar left"></div>
+        <div class="bar bottom"></div>
+      </div>
+      <div class="search-mobile">
+        <form id="search">
+          <input type="search">
+        </form>
+      </div>
+
+      <div class="collapse navbar-collapse display-menu" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav menu-principal">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#uaubox">UAUBOX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#conteudos">CONTEÚDOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mais-lindas">MAIS LIDAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fale-conosco">FALE CONOSCO</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav menu-secundario">
+          <li class="search">
+            <form id="search">
+              <input type="search">
+            </form>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+
+  <section id="logo" class="logo">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <div class="logo-background">
+            <img src="./imgs/logo.svg">
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="collapse navbar-collapse display-menu" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav menu-principal">
-            <li class="nav-item active">
-              <a class="nav-link" href="#inicio">Inicio</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#sistema-seguro">Sistema seguro</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#somos-a-solucao">Somos a Solução</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#como-a-reiterar-trabalha">Como a Reiterar trabalha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="http://reiterar.com.br/iNegociacao.php">Consultar dívidas</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav menu-secundario">
-            <li class="nav-item">
-              <a class="nav-link" target="_blank" href="http://reiterar.com.br/rlogin.php">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=5511957909175">Whatsapp</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav languages"> 
-            <li>
-              <a href="#Inglês">
-                <img src="./imgs/group-16.svg" alt="Inglês">
-              </a>
-            </li>
-            <li>
-              <a href="#Português">
-                <img src="./imgs/group-7.svg" alt="Português">
-              </a>
-            </li>
-          </ul>
-        </div>
-
-      </nav>
-    </header>
-
-    <section id="inicio" class="inicio">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <h1>Terceirizar sua carteira de cobrança pode ser mais simples</h1>
-            <p>Nós oferecemos o serviço ideal para empresas com grande quantidade de inadimplentes que precisam terceirizar sua cobrança de maneira simples com segurança.</p>
-            <a href="#somos-a-solucao">
-              <span>CONHEÇA A EMPRESA</span>
+  <section id="home" class="home">
+    <div class="owl-carousel owl-theme">
+      <div class="home-background item" style="background-image: url(./imgs/home-background.svg);">
+        <div class="home-box">
+          <div class="box">
+            <h1>CONHEÇA A CAIXINHA MAIS AMADA DO BRASIL</h1>
+            <p>Caixinhas completamente personalizadas com produtos das melhores marcas.</p>
+            <a>
+              <span>LEIA MAIS</span>
             </a>
           </div>
         </div>
       </div>
-    </section>
-
-    <section id="sistema-seguro" class="sistema-seguro">
-        <div class="container">
-            <div class="row">
-              <div class="col-lg-4 d-flex align-items-center">
-                <h1>Sistema totalmente digital e seguro</h1>
-              </div>
-              <div class="col-lg-8 d-flex align-items-center justify-content-center box-dados">
-                <p>Nós oferecemos o serviço ideal para empresas com grande quantidade de inadimplentes que precisam terceirizar sua cobrança de maneira simples com segurança.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="box-benefits">
-                  <div class="circle">
-                      <img src="./imgs/clock.svg" alt="clock">
-                  </div>
-                  <p>Aprovação do cadastro em instantes</p>
-                </div>
-              </div>
-              <div class="col-md-4 ">
-                <div class="box-benefits">
-                  <div class="circle">
-                      <img src="./imgs/percentage.svg" alt="percentage">
-                  </div>
-                  <p>Aprovação do cadastro em instantes</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="box-benefits">
-                  <div class="circle">
-                      <img src="./imgs/prefix.svg" alt="prefix">
-                  </div>
-                  <p>Aprovação do cadastro em instantes</p>
-                </div>
-              </div>
-          </div>
-    </section>
-
-    <section id="somos-a-solucao" class="somos-a-solucao">
-        <div class="container">
-            <div class="row">
-              <div class="col-lg-5 d-flex align-items-center box-title">
-                <h1>Porque somos a melhor solucão para a sua empresa</h1>
-              </div>
-              <div class="col-lg-7 d-flex align-items-center justify-content-center box-dados">
-                <p>Oferecemos serviços para que você não se preocupe com sua inadimplência e consiga focar em seus negócios</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-custom">
-                <div class="card-status">
-                  <div class="circle">
-                      <img src="./imgs/check.svg" alt="clock">
-                  </div>
-                  <p>Equipe totalmente qualificada para o trabalho</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-custom">
-                <div class="card-status">
-                  <div class="circle">
-                      <img src="./imgs/check.svg" alt="clock">
-                  </div>
-                  <p>Dashboard com KPIs de monitoramento</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-custom">
-                <div class="card-status">
-                  <div class="circle">
-                      <img src="./imgs/check.svg" alt="clock">
-                  </div>
-                  <p>Cobrança customizada de acordo com o perfil de cada carteira</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-custom">
-                <div class="card-status">
-                  <div class="circle">
-                      <img src="./imgs/check.svg" alt="clock">
-                  </div>
-                  <p>API para integração de sistemas</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-custom">
-                <div class="card-status">
-                  <div class="circle">
-                      <img src="./imgs/check.svg" alt="clock">
-                  </div>
-                  <p>Acreditamos que a empatia com o devedor é nossa especidalide</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-custom">
-                <div class="card-status">
-                  <div class="circle">
-                      <img src="./imgs/check.svg" alt="clock">
-                  </div>
-                  <p>Cobrança administrativa e judicial</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-custom">
-                <div class="card-status">
-                  <div class="circle">
-                      <img src="./imgs/check.svg" alt="clock">
-                  </div>
-                  <p>Pivotagem da equipe para dedicação exclusiva a sua carteira</p>
-                </div>
-              </div>
-          </div>
-    </section>
-
-    <section id="como-a-reiterar-trabalha" class="como-a-reiterar-trabalha">
-      <img class="mask" src="./imgs/marca-dagua.svg" alt="favicon">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="title">
-                <img src="./imgs/favicon.svg" alt="favicon">
-                <h1>Como a Reiterar trabalha</h1>
-            </div>
-          </div>
-          <div class="col-lg-12 view-box-dados">
-            <div class="box"> 
-              <div class="box-dados">
-                  <div class="circle">
-                    1
-                  </div>
-                  <div class="conteudo">
-                      <h5>Contratação</h5>
-                      <p>Pagamento somente no sucesso da cobrança, ou formato de cobrança com equipe exclusiva/dedicada para sua carteira</p>
-                  </div>
-                </div>
-                <div class="box-dados">
-                  <div class="circle">
-                    2
-                  </div>
-                  <div class="conteudo">
-                    <h5>Prazos de aprovação</h5>
-                    <p>Definição de limites para negociação com devedores</p>
-                  </div>
-                </div>
-                <div class="box-dados">
-                  <div class="circle">
-                    3
-                  </div>
-                  <div class="conteudo">
-                    <h5>Carteira</h5>
-                    <p>Disponibilização da carteira a ser cobrada</p>
-                  </div>
-                </div>
-                <div class="box-dados">
-                  <div class="circle">
-                    4
-                  </div>
-                  <div class="conteudo">
-                    <h5>Enriquecimento</h5>
-                    <p>Adição de dados atualizados a carteira, para melhor eficacia e efetividade de cobrança</p>
-                  </div>
-                </div>
-                <div class="box-dados">
-                  <div class="circle">
-                    5
-                  </div>
-                  <div class="conteudo">
-                    <h5>Kick-off</h5>
-                    <p>Inicio da cobrança</p>
-                  </div>
-                </div>
-            </div>
+      <div class="home-background item" style="background-image: url(./imgs/home-background.svg);">
+        <div class="home-box">
+          <div class="box">
+            <h1>CONHEÇA A CAIXINHA MAIS AMADA DA ARGENTINA</h1>
+            <p>Caixinhas completamente personalizadas com produtos das melhores marcas.</p>
+            <a>
+              <span>LEIA MAIS</span>
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+</body>
+<script src="./main.js"></script>
 
-    <section id="parceiros" class="parceiros">
-      <img src="./imgs/1.jpg" alt="">
-      <img src="./imgs/2.jpg" alt="">
-      <img src="./imgs/3.jpg" alt="">
-      <img src="./imgs/4.jpg" alt="">
-      <img src="./imgs/5.jpg" alt="">
-      <img src="./imgs/7.jpg" alt="">
-      <img src="./imgs/8.jpg" alt="">
-      <img src="./imgs/9.jpg" alt="">
-      <img src="./imgs/11.jpg" alt="">
-      <img src="./imgs/12.jpg" alt="">
-      <img src="./imgs/13.jpg" alt="">
-      <img src="./imgs/14.jpg" alt="">
-      <img src="./imgs/15.jpg" alt="">
-      <img src="./imgs/16.jpg" alt="">
-      <img src="./imgs/17.jpg" alt="">
-      <img src="./imgs/18.jpg" alt="">
-      <img src="./imgs/19.jpg" alt="">
-      <img src="./imgs/20.jpg" alt="">
-      <img src="./imgs/21.jpg" alt="">
-      <img src="./imgs/22.jpg" alt="">
-    </section>
-
-    <section id="contato" class="contato">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="box-contato">
-              <div class="circle">
-                <img src="./imgs/headphones.svg" alt="Headphones">
-              </div>
-              <h1>Pode deixar que cuidamos da sua carteira de cobranças</h1>
-              <p>Entre em contato, entenda um pouco mais sobre o nosso negócio e veja como podemos ajudar a sua empresa</p>
-              <a class="nav-link whatsapp-contato" target="_blank" href="https://api.whatsapp.com/send?phone=5511957909175">Whatsapp</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contato" class="trabalhar">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="box-trabalhar">
-              <h2>Venha trabalhar na equipe Reiterar </h2>
-              <button>
-                <span>junte-se à nossa equipe</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="dados">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Endereço Reiterar</h2>
-            <p>Trav Dona Paula, 124 Higienópolis - São Paulo - 01239-050</p>
-          </div>
-          <div class="col-md-4">
-            <div class="box-phones">
-                <h2>Central de Atendimento</h2>
-                <a href="tel:+551137778145" class="phone"  target="_blank">11 3777-8145</a>
-                <a href="https://api.whatsapp.com/send?phone=5511957909175" class="whats" target="_blank">11 95790-9175</a>
-                <a href="mailto:atendimento@reiterar.com.br" class="email" target="_blank">atendimento@reiterar.com.br</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <h2>Midias</h2>
-            <div class="midias">
-              <a href="https://www.facebook.com/reiterar" target="_blank"><img src="./imgs/fb.svg" alt=""></a>
-              <a href="https://twitter.com/ReiterarC" target="_blank"><img src="./imgs/tw.svg" alt=""></a>
-              <a href="https://www.linkedin.com/company/reiterar-soluções-de-cobrança/about/" target="_blank"><img src="./imgs/linkedin.svg" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="box-footer">
-                <p>© 2019 - Reitirar All Rights Reserved</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="box-footer bottom">
-                <ul class="languages"> 
-                  <li>
-                    <a href="#Português">
-                      <img src="./imgs/group-16.svg" alt="Português">
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#Inglês">
-                      <img src="./imgs/group-7.svg" alt="Inglês">
-                    </a>
-                  </li>
-                </ul>
-            </div>
-          </div>  
-        </div>
-      </div>
-    </footer>
-  </body>
-  <script src="./main.js"></script>
 </html>

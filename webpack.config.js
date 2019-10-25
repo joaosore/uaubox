@@ -33,7 +33,7 @@ module.exports = {
         loader: "file-loader?name=./imgs/[name].[ext]"
       },
       {
-        test: /\.(png|jpg?)(\?[a-z0-9=&.]+)?$/,
+        test: /\.(png|jpg|jpeg?)(\?[a-z0-9=&.]+)?$/,
         loader: "file-loader?name=./imgs/[name].[ext]"
       },
       {

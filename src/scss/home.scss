@@ -1,0 +1,52 @@
+.home {
+  .home-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .home-box {
+      padding-top: 74px;
+      padding-bottom: 111px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .box {
+        max-width: 514px;
+        width: 100%;
+        min-height: 217px;
+        margin: 0 15px;
+        
+        background-color: rgba(255, 255, 255, 0.78);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        h1 {
+          align-items: center;
+          font-family: "Open Sans";
+          font-weight: bold;
+          font-size: 1.42em;
+          color: #ec594e;
+          margin: 0;
+          max-width: 312px;
+          text-align: center;
+        }
+        p {
+          font-family: "Open Sans";
+          font-size: 1em;
+          color: #606060;
+          margin: 0;
+          max-width: 322px;
+          text-align: center;
+        }
+        a {
+          background-color: #ec594e;
+          padding: 7.5px 49px 7.5px 49px;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
