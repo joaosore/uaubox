@@ -1,0 +1,208 @@
+.conteudos {
+  position: relative;
+  .mobile {
+      display: none;
+  }
+  .conteudos-titulo {
+    padding-top: 94px;
+    p {
+      text-align: center;
+      border-bottom: 1px solid #000;
+      line-height: 0.1em;
+      margin: 10px 0 20px;
+      font-size: 1.15em;
+      color: #000000;
+    }
+    p span {
+      background: #fff;
+      padding: 0 140px;
+    }
+  }
+  .container {
+    height: 100%;
+    position: relative;
+    padding-top: 90px;
+    .row {
+      height: 390px;
+      .noticia-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .noticia-1-box-image {
+          img {
+            max-width: 336px;
+            width: 100%;
+          }
+        }
+        .noticia-1-box {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          background-color: #fff;
+          bottom: 0;
+          max-width: 70%;
+          height: 48%;
+          width: 100%;
+          span {
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+          }
+          h2 {
+            max-width: 188px;
+            font-family: Open Sans;
+            letter-spacing: 1.31px;
+            line-height: 1.5;
+            font-size: 1em;
+            color: #484848;
+            text-align: center;
+          }
+          p {
+            max-width: 212px;
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+          }
+          a {
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+            text-decoration: underline;
+          }
+        }
+      }
+      .noticia-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 336px;
+          width: 100%;
+          margin: 0 15px;
+          top: 0;
+        }
+        .noticia-2-box {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          background-color: #fff;
+          bottom: 0;
+          max-width: 70%;
+          height: 48%;
+          width: 100%;
+          span {
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+          }
+          h2 {
+            max-width: 188px;
+            font-family: Open Sans;
+            letter-spacing: 1.31px;
+            line-height: 1.5;
+            font-size: 1em;
+            color: #484848;
+            text-align: center;
+          }
+          p {
+            max-width: 212px;
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+          }
+          a {
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+            text-decoration: underline;
+          }
+        }
+      }
+      .noticia-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 336px;
+          width: 100%;
+          margin: 0 15px;
+        }
+        .noticia-3-box {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          background-color: #fff;
+          bottom: 0;
+          max-width: 70%;
+          height: 48%;
+          width: 100%;
+          span {
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+          }
+          h2 {
+            max-width: 188px;
+            font-family: Open Sans;
+            letter-spacing: 1.31px;
+            line-height: 1.5;
+            font-size: 1em;
+            color: #484848;
+            text-align: center;
+          }
+          p {
+            max-width: 212px;
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+          }
+          a {
+            font-family: Open Sans;
+            letter-spacing: 0.99px;
+            font-size: 0.71em;
+            color: #5f5f5f;
+            text-align: center;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  .botao-conteudos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    a {
+      background-color: #ec594e;
+      color: #fff;
+      padding: 7.5px 49px 7.5px 49px;
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+}
