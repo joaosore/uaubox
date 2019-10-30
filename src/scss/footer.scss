@@ -1,0 +1,40 @@
+footer {
+  background-color: #ec594e;
+  .redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 23px;
+    .facebook {
+      margin-right: 38.2px;
+    }
+    .instagram {
+      margin-right: 38.2px;
+    }
+  }
+  .link {
+    padding-top: 7.2px;
+    p {
+      text-align: center;
+      font-size: 1em;
+      letter-spacing: 1.33px;
+      line-height: 1.5;
+      color: #fff;
+      text-align: center;
+    }
+  }
+  .direitos {
+    padding-top: 38px;
+    padding-bottom: 10px;
+    p {
+      text-align: center;
+      font-size: 1em;
+      letter-spacing: 1.33px;
+      line-height: 1.5;
+      color: #fff;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}

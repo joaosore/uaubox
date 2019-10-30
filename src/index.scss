@@ -1,13 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
-@import "./global/fonts.scss";
-
 @import "~owl.carousel/dist/assets/owl.carousel.css";
+
+@import "./global/fonts.scss";
 
 @import "./scss/header.scss";
 @import "./scss/logo.scss";
 @import "./scss/home.scss";
 @import "./scss/conteudos.scss";
 @import "./scss/mais-lidas.scss";
+@import "./scss/fale-conosco.scss";
+@import "./scss/footer.scss";
 
 @import "./scss/components/search.scss";
 @import "./scss/components/carousel.scss";

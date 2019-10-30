@@ -48,6 +48,11 @@
           color: #fff;
           padding: 7.5px 49px 7.5px 49px;
           opacity: 1;
+          cursor: pointer;
+          transition: all 350ms ease-in-out;
+          &:hover {
+            color: #5f5f5f;
+          }
         }
       }
     }
