@@ -1,0 +1,61 @@
+.post-template-default {
+  background-color: #eee;
+  .site-main {
+    padding: 30px 0;
+    .box-conteudo {
+      padding: 15px;
+      background-color: #fff;
+      font-family: "Open Sans";
+      font-size: 1.2em;
+      line-height: 2;
+      color: #666666;
+      .box-img {
+        img {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+      img {
+        margin-bottom: 15px;
+      }
+      h5 {
+        color: #000;
+        font-weight: 600;
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+.widget-area {
+  padding: 30px 0;
+  .widget {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    h2 {
+      font-family: Open Sans;
+      font-size: 1em;
+      line-height: 1;
+      color: #666;
+      margin-bottom: 10px;
+      display: block;
+      font-weight: 700;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+    }
+    ul {
+      li {
+        display: block;
+        a {
+          font-family: Open Sans;
+          font-size: 1em;
+          line-height: 1;
+          color: #666;
+          margin-bottom: 10px;
+          display: block;
+        }
+      }
+    }
+  }
+}

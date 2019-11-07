@@ -14,6 +14,8 @@
 @import "./scss/components/search.scss";
 @import "./scss/components/carousel.scss";
 
+@import "./scss/pages/posts.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +24,7 @@
 }
 
 body {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 14px;
   -webkit-font-smoothing: antialiased !important;
 }
